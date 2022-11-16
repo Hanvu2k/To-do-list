@@ -40,7 +40,7 @@ function ToDoItem({ data, onDelete, onEdit, groups }) {
         <div className="todo-item-action" onClick={() => handleShow('change-group')}>
           <AiOutlineArrowRight />
         </div>
-        <div className="todo-item-action" onClick={() => { }}>
+        <div className="todo-item-action" onClick={() => handleShow('change-group')}>
           <AiOutlineArrowLeft />
         </div>
       </div>

@@ -1,6 +1,7 @@
-.array-todo-wrapper + .array-todo-wrapper {
+.array-todo-wrapper+.array-todo-wrapper {
   margin-left: 12px;
 }
+
 .array-todo {
   width: 272px;
   height: calc(100vh - 80px);
@@ -19,6 +20,8 @@
   margin-top: 8px;
   border: 1px solid #f0f0f0;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-height: 256px;
+
   .todo-item-wrapper-action {
     position: absolute;
     right: 2px;
@@ -41,7 +44,7 @@
     border-radius: 3px;
   }
 
-  .todo-item-action + .todo-item-action {
+  .todo-item-action+.todo-item-action {
     margin-top: 4px;
   }
 }
