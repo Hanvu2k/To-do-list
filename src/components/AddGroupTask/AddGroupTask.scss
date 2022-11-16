@@ -1,0 +1,17 @@
+.AddGroupTask {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    width: 272px;
+    height: calc(100vh - 34px);
+
+    svg {
+        padding: relative;
+        color: white;
+        width: 4rem;
+        height: 4rem;
+        background: #ddd;
+    }
+}
