@@ -26,7 +26,7 @@ function AddJob({ onAdd, group_id }) {
     <div className="add-job">
       <Modal show={showForm} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Sửa thông tin</Modal.Title>
+          <Modal.Title>Thêm công việc</Modal.Title>
         </Modal.Header>
         <Modal.Body className="text-center">
           <InputGroup className="mb-3">
